@@ -25,9 +25,12 @@
 $string['pluginname'] = 'Téléchargement';
 $string['title'] = 'Téléchargement';
 $string['blocktitle'] = 'Modifier le titre :';
-$string['defaulttitle'] = 'Téléchargement';
-$string['defaultbody'] = 'Corps';
+$string['defaulttitle'] = 'Téléchargement du cours';
+$string['defaultbody'] = 'Pour accéder à l\'export du cours vous devez être identifié ou vous créer ou compte :';
+$string['defaultloggedinbody'] = 'Pour accéder à l\'export du cours, rendez-vous dans la section <strong>Téléchargement</strong>.';
 $string['settings:title'] = 'Titre';
 $string['settings:title_desc'] = 'Titre du bloc';
 $string['settings:body'] = 'Texte';
-$string['settings:body_desc'] = 'Corps du bloc';
+$string['settings:body_desc'] = 'Corps du bloc pour un utilisateur déconnecté';
+$string['settings:loggedinbody'] = 'Texte utilisateur connecté';
+$string['settings:loggedinbody_desc'] = 'Corps du bloc pour un utilisateur connecté';

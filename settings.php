@@ -39,4 +39,11 @@ if ($ADMIN->fulltree) {
         new lang_string('settings:body_desc', 'block_telechargement'),
         '')
     );
+
+    $settings->add(new admin_setting_confightmleditor(
+        'block_telechargement/loggedinbody',
+        new lang_string('settings:loggedinbody', 'block_telechargement'),
+        new lang_string('settings:loggedinbody_desc', 'block_telechargement'),
+        '')
+    );
 }
