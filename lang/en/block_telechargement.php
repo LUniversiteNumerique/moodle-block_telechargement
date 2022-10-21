@@ -24,13 +24,13 @@
 
 $string['pluginname'] = 'Téléchargement';
 $string['title'] = 'Téléchargement';
-$string['blocktitle'] = 'Modifier le titre :';
-$string['defaulttitle'] = 'Téléchargement du cours';
-$string['defaultbody'] = 'Pour accéder à l\'export du cours vous devez être identifié ou vous créer un compte :';
-$string['defaultloggedinbody'] = 'Pour accéder à l\'export du cours, rendez-vous dans la section <strong>Téléchargement</strong>.';
-$string['settings:title'] = 'Titre';
-$string['settings:title_desc'] = 'Titre du bloc';
-$string['settings:body'] = 'Texte';
-$string['settings:body_desc'] = 'Corps du bloc pour un utilisateur déconnecté';
-$string['settings:loggedinbody'] = 'Texte utilisateur connecté';
-$string['settings:loggedinbody_desc'] = 'Corps du bloc pour un utilisateur connecté';
+$string['blocktitle'] = 'Modify the title :';
+$string['defaulttitle'] = 'Download the course';
+$string['defaultbody'] = 'To download the course, you must be identified or create an account :';
+$string['defaultloggedinbody'] = 'To download the course, proceed to the <strong>Download</strong> section.';
+$string['settings:title'] = 'Title';
+$string['settings:title_desc'] = ' Block\'s title';
+$string['settings:body'] = 'Text';
+$string['settings:body_desc'] = 'block\'s body for an anonymous visitor';
+$string['settings:loggedinbody'] = 'Text identified visitor';
+$string['settings:loggedinbody_desc'] = 'block\'s body for an identified visitor';
