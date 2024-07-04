@@ -55,13 +55,7 @@ class block_telechargement extends block_base {
             $defaultbody = get_string('defaultbody', 'block_telechargement');
             $configbody = get_config('block_telechargement', 'body');
             $this->content->text = empty($configbody) ? '<p>'.$defaultbody.'</p>' : '<p>'.$configbody.'</p>';
-
-            $button = new single_button(new moodle_url('/login/index.php',
-                            ['sesskey' => sesskey()]),
-                            get_string('login', 'core'),
-                            'get',
-                            array('class' => 'btn', 'btn-primary'));
-            $this->content->footer = $OUTPUT->render($button);
+            $this->content->footer = $OUTPUT->single_button(new moodle_url('/login/index.php', ['sesskey' => sesskey()]), get_string('login', 'core'), 'get');
         }
         return $this->content;
     }
